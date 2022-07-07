@@ -1,5 +1,7 @@
 name: Gradle构建
-on: [push]
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
